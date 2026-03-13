@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#6f4e37;   /* coffee brown */
+    padding:15px 30px;
+}
+
+.navbar-logo{
+    color:#f5f5dc;   /* beige */
+    font-size:20px;
+    font-weight:bold;
+}
+
+.navbar-menu{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.navbar-menu li a{
+    text-decoration:none;
+    color:#f5f5dc;   /* beige text */
+    font-size:16px;
+}
+
+.navbar-menu li a:hover{
+    color:#e6d3b3;   /* lighter beige hover */
+}
